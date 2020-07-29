@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "Cheatsheets"
 theme = "kraiklyn"
 pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
+pygmentsStyle = "monokai"
 
 [params]
 sidebarColor = "default"
-customCss = []
+customCss = ["css/custom.css"]

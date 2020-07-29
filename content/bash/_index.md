@@ -1,6 +1,7 @@
 ---
 title: "Bash shell"
 date: 2020-07-29T11:22:32-04:00
+anchor: "bash-shell"
 draft: false
 ---
 
