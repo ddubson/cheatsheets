@@ -19,3 +19,18 @@ var ar = new MyClass[] {};
 ```
 
 ---
+
+### Serializing/deserializing Object to/from JSON
+
+Requires `newtonsoft` NuGet
+
+```csharp
+public static StringContent CreateRequestBody<T>(T t) =>
+  new StringContent(JsonConvert.SerializeObject(t),
+                    Encoding.UTF8,
+                    "application/json"
+  );
+
+public static T ReadResponseBody<T>(string responseBody) =>
+  JsonConvert.DeserializeObject<T>(responseBody);
+```
