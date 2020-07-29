@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Cheatsheets"
+theme = "kraiklyn"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[params]
+sidebarColor = "default"
+customCss = []
