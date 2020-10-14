@@ -1,7 +1,7 @@
 html, body {
   background-color: #252525;
   font-family: "Open Sans", sans-serif;
-  color: #BBBBBB;
+  color: #f0e7d5;
   font-weight: 400;
   height: 100%;
   font-size: 14px;
@@ -55,7 +55,7 @@ p {
   overflow: auto;
   text-align: center;
   padding: 1rem 1rem;
-  color: white;
+  color: #f0e7d5;
   background-color: #363636;
   display: flex;
   flex-direction: column;
@@ -206,9 +206,10 @@ section.page {
 }
 
 section.page h1 {
-  border-left: 3px solid #363636;
-  padding-left: 0.5em;
+  border-left: 0;
+  padding-left: 0;
   margin-bottom: 0;
+  margin-left: 0.5em;
 }
 
 section.page .content {
