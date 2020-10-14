@@ -5,7 +5,7 @@ draft: false
 anchor: "csharp"
 ---
 
-### Create a new empty array
+Create a new empty array
 
 ```csharp
 var ar = {};
@@ -19,11 +19,7 @@ var ac = new bool[] {};
 var ar = new MyClass[] {};
 ```
 
----
-
-### Serializing/deserializing Object to/from JSON
-
-Requires `newtonsoft` NuGet
+Serializing/deserializing Object to/from JSON (Requires `newtonsoft` NuGet)
 
 ```csharp
 public static StringContent CreateRequestBody<T>(T t) =>

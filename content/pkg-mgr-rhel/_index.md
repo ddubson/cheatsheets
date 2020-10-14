@@ -1,5 +1,5 @@
 ---
-title: "Yum repo mgmt"
+title: "yum Repo Manager"
 date: 2020-07-31T10:42:28-04:00
 draft: false
 anchor: "repository-management-yum-rhel"

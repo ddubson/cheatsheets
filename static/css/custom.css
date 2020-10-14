@@ -1,8 +1,10 @@
 html, body {
+  background-color: #252525;
   font-family: "Open Sans", sans-serif;
-  color: #363636;
+  color: #BBBBBB;
+  font-weight: 400;
   height: 100%;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1 {
@@ -11,7 +13,7 @@ h1 {
 
 h1 a {
   font-size: 1.2em;
-  color: #459D61;
+  color: #FFCC00;
 }
 
 h3 {
@@ -19,7 +21,7 @@ h3 {
 }
 
 p {
-  font-size: 0.7em;
+  font-size: 1.0em;
 }
 
 @media (min-width: 48em) {
@@ -217,24 +219,28 @@ section.page h1 a,
 section.page h1 a:hover,
 section.page h1 a:visited {
   text-decoration: none;
-  color: #459D61;
+  color: #FFCC00;
 }
 
 section.page a,
 section.page a:hover,
 section.page a:visited {
-  color: #459D61;
+  color: #FFCC00;
 }
 
 section div pre {
+  background-color: #191919 !important;
   overflow: auto;
-  border-radius: 3px;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 10px;
   line-height: 1.2;
 }
 
 section code {
   background-color: transparent;
+  font-family: 'Monaco', 'Open Sans', 'sans-serif';
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 section img {

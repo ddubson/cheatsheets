@@ -5,13 +5,23 @@ anchor: "bash-shell"
 draft: false
 ---
 
-### List all processes bound to a specific port
+List all processes bound to a specific port
 
 ```bash
 lsof -i:8080
 ```
 
-### Wait for a process to start and bind to port
+Kill or terminate a process by the port it's bound on
+
+```bash
+# Kill
+lsof -ti tcp:<port> | xargs kill -SIGKILL
+
+# Terminate
+lsof -ti tcp:<port> | xargs kill -SIGTERM
+```
+
+Wait for a process to start and bind to port
 
 ```bash
 export SERVER_PORT=8080
