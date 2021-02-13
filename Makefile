@@ -3,6 +3,7 @@ start:
 
 update-content:
 	@git add -N **/*.md
+	@git add **/*.md
 	@git commit -m "Auto-update content"
 
 push:
