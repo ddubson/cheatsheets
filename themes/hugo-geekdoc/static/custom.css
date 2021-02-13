@@ -1,0 +1,9 @@
+/* You can add custom styles here. */
+html, body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    font-family: "Open Sans", sans-serif !important;
+}
