@@ -2,8 +2,8 @@ start:
 	@hugo serve -D
 
 update-content:
-	@git add -N **/*.md
-	@git add **/*.md
+	@git add -N .
+	@git add .
 	@git commit -m "Auto-update content"
 
 push:
